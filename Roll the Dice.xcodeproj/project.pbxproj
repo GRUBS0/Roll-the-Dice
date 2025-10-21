@@ -6,8 +6,25 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3ED518A12EA7DE02005566C1 /* pips 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ED5189E2EA7DE02005566C1 /* pips 5.png */; };
+		3ED518A22EA7DE02005566C1 /* pips 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ED5189A2EA7DE02005566C1 /* pips 1.png */; };
+		3ED518A32EA7DE02005566C1 /* pips 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ED518992EA7DE02005566C1 /* pips 0.png */; };
+		3ED518A42EA7DE02005566C1 /* pips 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ED5189F2EA7DE02005566C1 /* pips 6.png */; };
+		3ED518A52EA7DE02005566C1 /* pips 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ED5189B2EA7DE02005566C1 /* pips 2.png */; };
+		3ED518A62EA7DE02005566C1 /* pips 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ED5189D2EA7DE02005566C1 /* pips 4.png */; };
+		3ED518A72EA7DE02005566C1 /* pips 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ED5189C2EA7DE02005566C1 /* pips 3.png */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		3ED518852E9FF9E1005566C1 /* Roll the Dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roll the Dice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED518992EA7DE02005566C1 /* pips 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pips 0.png"; sourceTree = "<group>"; };
+		3ED5189A2EA7DE02005566C1 /* pips 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pips 1.png"; sourceTree = "<group>"; };
+		3ED5189B2EA7DE02005566C1 /* pips 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pips 2.png"; sourceTree = "<group>"; };
+		3ED5189C2EA7DE02005566C1 /* pips 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pips 3.png"; sourceTree = "<group>"; };
+		3ED5189D2EA7DE02005566C1 /* pips 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pips 4.png"; sourceTree = "<group>"; };
+		3ED5189E2EA7DE02005566C1 /* pips 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pips 5.png"; sourceTree = "<group>"; };
+		3ED5189F2EA7DE02005566C1 /* pips 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pips 6.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +49,7 @@
 		3ED5187C2E9FF9E1005566C1 = {
 			isa = PBXGroup;
 			children = (
+				3ED518A02EA7DE02005566C1 /* Dice Images */,
 				3ED518872E9FF9E1005566C1 /* Roll the Dice */,
 				3ED518862E9FF9E1005566C1 /* Products */,
 			);
@@ -43,6 +61,20 @@
 				3ED518852E9FF9E1005566C1 /* Roll the Dice.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3ED518A02EA7DE02005566C1 /* Dice Images */ = {
+			isa = PBXGroup;
+			children = (
+				3ED518992EA7DE02005566C1 /* pips 0.png */,
+				3ED5189A2EA7DE02005566C1 /* pips 1.png */,
+				3ED5189B2EA7DE02005566C1 /* pips 2.png */,
+				3ED5189C2EA7DE02005566C1 /* pips 3.png */,
+				3ED5189D2EA7DE02005566C1 /* pips 4.png */,
+				3ED5189E2EA7DE02005566C1 /* pips 5.png */,
+				3ED5189F2EA7DE02005566C1 /* pips 6.png */,
+			);
+			path = "Dice Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +141,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ED518A12EA7DE02005566C1 /* pips 5.png in Resources */,
+				3ED518A22EA7DE02005566C1 /* pips 1.png in Resources */,
+				3ED518A32EA7DE02005566C1 /* pips 0.png in Resources */,
+				3ED518A42EA7DE02005566C1 /* pips 6.png in Resources */,
+				3ED518A52EA7DE02005566C1 /* pips 2.png in Resources */,
+				3ED518A62EA7DE02005566C1 /* pips 4.png in Resources */,
+				3ED518A72EA7DE02005566C1 /* pips 3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
